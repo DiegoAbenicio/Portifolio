@@ -1,0 +1,72 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+    background-color: #e7ffff;
+}
+.apresentation{
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.textspace{
+    opacity: 1.0;
+    color: rgb(253, 250, 250);
+}
+.titleapresentation h1{
+    font-size:100px;
+    margin-bottom: 0px;
+    line-height: 1.1;
+    max-height: 25px;
+}
+.titleapresentation p{
+    font-size:35px;
+    margin-bottom: 0px;
+    margin-top: 22%;
+    line-height: 1.1;
+    max-height: 25px;
+}
+.myicons{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    max-width: 724px;
+}
+.myicons img{
+    height: 50px !important;
+}
+.titleapresentation .name{
+    color: rgb(100, 100, 210);
+}
+.profileconteiner{
+    height: 600px;
+}
+.profileimg{
+    height: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.circulo-pontilhado{
+  position: absolute;
+  top: 40px;
+  left: 55px;
+  right: 55px;
+  bottom: 40px;
+  border: 5px dotted rgb(100, 100, 210);
+  border-radius: 50%;
+}
+@keyframes blink {
+  0%, 50% {
+    opacity: 0;
+  }
+  51%, 100% {
+    opacity: 1;
+  }
+}
+
+.blink {
+  animation: blink 1.5s infinite;
+}
