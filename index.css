@@ -1,16 +1,23 @@
+:root{
+    --textcolor: rgb(253, 250, 250);
+    --maincolor: rgb(100, 100, 210);
+    --background-main-color: #e7ffff;
+    --background-secunday-color: rgba(0, 0, 0, 0.8);
+}
+
 body{
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     line-height: 1.3;
-    background-color: #e7ffff;
+    background-color: var(--background-main-color);
 }
 .apresentation{
     height: 600px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--background-secunday-color)
 }
 .textspace{
     opacity: 1.0;
-    color: rgb(253, 250, 250);
+    color: var(--textcolor)
 }
 .titleapresentation h1{
     font-size:100px;
@@ -34,7 +41,7 @@ body{
     height: 50px !important;
 }
 .titleapresentation .name{
-    color: rgb(100, 100, 210);
+    color: var(--maincolor);
 }
 .profileconteiner{
     height: 600px;
@@ -55,7 +62,7 @@ body{
   left: 55px;
   right: 55px;
   bottom: 40px;
-  border: 5px dotted rgb(100, 100, 210);
+  border: 5px dotted var(--maincolor);
   border-radius: 50%;
 }
 @keyframes blink {
@@ -68,5 +75,18 @@ body{
 }
 
 .blink {
-  animation: blink 1.5s infinite;
+  animation: blink 2.5s infinite;
+}
+.iam{
+    max-height: 50px;
+    background: none;
+    padding: 0 20px 0 20px;
+    color: var(--textcolor);
+    border: 4px solid var(--maincolor);
+    transition: all 0.3s;
+}
+.iam:hover{
+    background-color: var(--maincolor);
+    border-color: var(--background-main-color);
+    transform: scale(1.05);
 }
