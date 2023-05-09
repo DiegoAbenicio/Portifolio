@@ -7,9 +7,11 @@
     <title>Portifolio</title>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="icon" type="image/png" href="img/curriculoicon.png">
-    <script src="index.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
     <div class="apresentation">
@@ -31,7 +33,7 @@
     </div>
     <div class="nextapresentation">
         <div class="form-row col-md-12">
-            <div class="form-row col-md-6 textapresentation d-flex">
+            <div class="form-row col-md-6 textapresentation d-flex md-4">
                 <h1 class="myname">
                     Diego Alípio Abenicio
                 </h1>
@@ -41,8 +43,16 @@
                     <p>Sou uma pessoa extrovertida e bem fácil de lidar, nos meus núcleos sociais gosto de ser aquele que está a frente de todos, ajudando e liderando.</p>        
                 </div>
             </div>
-            <div class="form-group col-md-5 d-flex justify-content-center">
-                
+            <div class="form-group col-md-5 justify-content-center">
+                <div class="carrosel-nextapresentation">
+                <div class="owl-carousel owl-theme">
+                        <div class="box-nextapresentation"><img style="height: 300px; width: 80%;" src="img/nextapresentation/minasgerias.webp"></div>
+                        <div class="box-nextapresentation"><img style="height: 300px;" src="img/nextapresentation/formiga.png"></div>
+                        <div class="box-nextapresentation"><img style="height: 300px;" src="img/nextapresentation/familia.jpg"></div>
+                        <div class="box-nextapresentation"><img style="height: 300px;" src="img/nextapresentation/menino_no_pc.jpg"></div>
+                        <div class="box-nextapresentation"><img style="height: 300px;" src="img/nextapresentation/grupo_de_pessoas.jpg"></div>
+                </div>
+            </div>
             </div>
             
         </div>
@@ -73,5 +83,11 @@
     <div>
         Cursos
     </div>
+
+
+    <script src="https://kit.fontawesome.com/3bb757566f.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
 </body>
 </html>
