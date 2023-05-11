@@ -116,3 +116,11 @@ body{
 .owl-carousel{
     padding-top: 30px;
 }
+.box-nextapresentation img{
+    height: 300px;
+}
+.formation{
+    height: 800px;
+    background-color: var(--black);
+    margin-top: 1.5em;
+}
