@@ -1,63 +1,66 @@
-:root{
-    --textcolor: #FCFCFCff; /*$white: rgba(252, 252, 252, 1);*/
-    --maincolor: #F28744ff;
-    --black: rgba(0, 0, 0, 0.9);
-    --pumpkin: #F28744ff; /* $pumpkin: rgba(242, 135, 68, 1); */
-    --teal: #2A827Fff; /*$teal: rgba(42, 130, 127, 1);*/
-    --champagne-pink: #E0D1CAff; /* $champagne-pink: rgba(224, 209, 202, 1); */
+:root {
+  --textcolor: #fcfcfcff; /*$white: rgba(252, 252, 252, 1);*/
+  --maincolor: #f28744ff;
+  --black: rgba(0, 0, 0, 0.9);
+  --pumpkin: #f28744ff; /* $pumpkin: rgba(242, 135, 68, 1); */
+  --teal: #2a827fff; /*$teal: rgba(42, 130, 127, 1);*/
+  --champagne-pink: #e0d1caff; /* $champagne-pink: rgba(224, 209, 202, 1); */
 }
-body{
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    line-height: 1.3;
-    background: url('../img/fundo.jpg');
-    color: var(--textcolor)
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 1.3;
+  background: url("../img/fundo.jpg");
+  color: var(--textcolor);
 }
-.apresentation{
-    height: 600px;
-    background-color: var(--black)
+.danger{
+    color: red;
 }
-.textspace{
-    opacity: 1.0;
+.apresentation {
+  height: 600px;
+  background-color: var(--black);
 }
-.titleapresentation h1{
-    font-size:100px;
-    margin-bottom: 0px;
-    line-height: 1.1;
-    max-height: 25px;
+.textspace {
+  opacity: 1;
 }
-.titleapresentation p{
-    font-size:35px;
-    margin-bottom: 0px;
-    margin-top: 22%;
-    line-height: 1.1;
-    max-height: 25px;
+.titleapresentation h1 {
+  font-size: 100px;
+  margin-bottom: 0px;
+  line-height: 1.1;
+  max-height: 25px;
 }
-.myicons{
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    max-width: 724px;
+.titleapresentation p {
+  font-size: 35px;
+  margin-bottom: 0px;
+  margin-top: 22%;
+  line-height: 1.1;
+  max-height: 25px;
 }
-.myicons img{
-    height: 50px !important;
+.myicons {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  max-width: 724px;
 }
-.titleapresentation .name{
-    color: var(--maincolor);
+.myicons img {
+  height: 50px !important;
 }
-.profileconteiner{
-    height: 600px;
+.titleapresentation .name {
+  color: var(--maincolor);
 }
-.profileimg{
-    height: 80%;
-    border-radius: 50%;
-    overflow: hidden;
+.profileconteiner {
+  height: 600px;
 }
-.profileimg img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.profileimg {
+  height: 80%;
+  border-radius: 50%;
+  overflow: hidden;
 }
-.circulo-pontilhado{
+.profileimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.circulo-pontilhado {
   position: absolute;
   top: 40px;
   left: 55px;
@@ -67,10 +70,12 @@ body{
   border-radius: 50%;
 }
 @keyframes blink {
-  0%, 50% {
+  0%,
+  50% {
     opacity: 0;
   }
-  51%, 100% {
+  51%,
+  100% {
     opacity: 1;
   }
 }
@@ -78,49 +83,59 @@ body{
 .blink {
   animation: blink 2.5s infinite;
 }
-.iam{
-    max-height: 50px;
-    background: none;
-    padding: 0 20px 0 20px;
-    color: var(--textcolor);
-    border: 4px solid var(--maincolor);
-    transition: all 0.3s;
+.iam {
+  max-height: 50px;
+  background: none;
+  padding: 0 20px 0 20px;
+  color: var(--textcolor);
+  border: 4px solid var(--maincolor);
+  transition: all 0.3s;
 }
-.iam:hover{
-    background-color: var(--maincolor);
-    border-color: var(--background-main-color);
-    transform: scale(1.05);
+.iam:hover {
+  background-color: var(--maincolor);
+  border-color: var(--background-main-color);
+  transform: scale(1.05);
 }
-.nextapresentation{
-    height: 400px;
-    background-color: var(--black);
-    margin-top: 1.5em;
+.nextapresentation {
+  height: 400px;
+  background-color: var(--black);
+  margin-top: 1.5em;
 }
-.textapresentation{
-    margin: 40px 0px 0px 60px;
+.text-apresentation {
+  margin: 40px 0px 0px 60px;
 }
-.myname{
-    color: var(--pumpkin);
+.myname {
+  color: var(--pumpkin);
 }
-.textapresentation .text{
-    padding-left: 3%;
-    font-size: 18px;
-    text-align: justify;
-    padding-top: 0;
+.text-apresentation .text-apresentation-descripition {
+  padding-left: 3%;
+  font-size: 18px;
+  text-align: justify;
+  padding-top: 0;
 }
-.box-nextapresentation{
-    margin-left: auto;
-    width: 90%;
-    display: block;
+.box-nextapresentation {
+  margin-left: auto;
+  width: 90%;
+  display: block;
 }
-.owl-carousel{
-    padding-top: 30px;
+.owl-carousel {
+  padding-top: 30px;
 }
-.box-nextapresentation img{
-    height: 300px;
+.box-nextapresentation img {
+  height: 300px;
 }
-.formation{
-    height: 800px;
-    background-color: var(--black);
-    margin-top: 1.5em;
+.formation {
+  height: 700px;
+  background-color: var(--black);
+  margin-top: 1.5em;
+}
+.diplomaconteiner {
+  max-height: 700px;
+}
+.diploma {
+  height: 85.7%;
+}
+.formation-text-box {
+  margin-left: 1%;
+  margin-right: auto;
 }
